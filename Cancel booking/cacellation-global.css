@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-ubuntu: Ubuntu;
+  
+    /* font sizes */
+    --font-size-3xl: 22px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-dodgerblue-100: #0088ff;
+    --color-darkslateblue-100: #3d63ad;
+    --color-darkslateblue-200: #173e87;
+  
+    /* Gaps */
+    --gap-232xl: 251px;
+    --gap-50xl: 69px;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-2xs: 11px;
+    --padding-3xs: 10px;
+    --padding-18xl: 37px;
+    --padding-xs: 12px;
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+  }

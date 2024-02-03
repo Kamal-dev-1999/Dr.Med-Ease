@@ -1,0 +1,337 @@
+
+.background-frame {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 25px 0;
+    background-color: rgba(0, 136, 255, 0.5);
+    box-shadow: 0 4px 40px -10px rgba(0, 0, 0, 0.15);
+  }
+  .object-icon {
+    width: 33.9px;
+    height: 29.5px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .booking-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 7px;
+  }
+  .medicust {
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .background-frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-xs) var(--padding-18xl) 13px 36px;
+    position: relative;
+    gap: 4px;
+  }
+  .home {
+    position: relative;
+    font-size: var(--font-size-3xl);
+    font-weight: 500;
+    font-family: var(--font-ubuntu);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .frames-row {
+    cursor: pointer;
+    border: 0;
+    padding: 8px 27px var(--padding-xs) 32px;
+    background-color: var(--color-darkslateblue-200);
+    border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: 150px;
+  }
+  
+  /* .frames-row1:hover,
+  .frames-row2:hover,
+  .frames-row3:hover,
+  .frames-row:hover {
+    background-color: var(--color-darkslateblue-100);
+  } */
+/* Add this style to your existing CSS */
+/* .frames-row-clicked {
+    background-color: #ffffff;
+    color: #173e87;
+    box-shadow: inset 1px 2px 2px 1px #ADADAD;
+  }
+
+  .home1 {
+    width: 104px;
+    position: relative;
+    font-size: var(--font-size-3xl);
+    font-weight: 500;
+    font-family: var(--font-ubuntu);
+    
+    text-align: left;
+    display: inline-block;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  } */
+  .frames-row {
+    background-color: #173e87; /* Default background color */
+    color: #ffffff; /* Default text color */
+    /* Additional styles for button appearance */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .frames-row-clicked {
+    background-color: #ffffff; /* Adjust the color to your preference */
+    color: #173e87; /* Text color after clicking */
+    box-shadow: inset 1px 2px 2px 1px #ADADAD;
+  }
+  .home1 {
+    width: 104px;
+    position: relative;
+    font-size: var(--font-size-3xl);
+    font-weight: 500;
+    font-family: var(--font-ubuntu);
+    text-align: center;
+    display: inline-block;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+  
+  
+  .frames-row2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) 43px var(--padding-3xs) var(--padding-18xl);
+    background-color: var(--color-darkslateblue-200);
+    border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+ 
+  .frames-row3 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) 26px var(--padding-3xs) 30px;
+    background-color: var(--color-darkslateblue-200);
+    border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .frame-group,
+  .home-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .home-navbar {
+    flex: 1;
+    gap: 20px;
+  }
+  .frame-group {
+    align-self: stretch;
+    gap: var(--gap-50xl);
+    text-align: left;
+    font-size: 25px;
+    color: var(--color-white);
+    font-family: var(--font-ubuntu);
+  }
+  .noto-v1sleeping-face-icon {
+    width: 434px;
+    position: relative;
+    max-height: 100%;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .it-seems-that {
+    margin-block-start: 0;
+    margin-block-end: 1px;
+  }
+  .to-book-your {
+    margin: 0;
+  }
+  .it-seems-that-container {
+    margin: 0;
+    align-self: stretch;
+    height: 81px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .book-appointment {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-ubuntu);
+    color: var(--color-dodgerblue-100);
+    text-align: center;
+  }
+  .booking-text-frame {
+    cursor: pointer;
+    border: 1px solid var(--color-dodgerblue-100);
+    padding: var(--padding-2xs) 23px var(--padding-2xs) 24px;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: 227px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0088FF;
+    padding: 12px;
+  }
+  .booking-text-frame:hover {
+    background-color: #80C3FF;
+    border: 1px solid #80C3FF;
+    box-sizing: border-box;
+    color: white;
+    
+  }
+  
+  .cancel-button {
+    width: 522px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    max-width: 100%;
+  }
+  .error-message {
+    width: 808px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .home-frames {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-232xl);
+    max-width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #999;
+    font-family: var(--font-ubuntu);
+  }
+  .error-container-icon {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    max-width: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    transform: scale(1.129);
+  }
+  .wrapper-error-container {
+    height: 1243px;
+    width: 466px;
+    /* position: relative; */
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    background: url(Background\ frame.png);
+    
+  }
+  .wrapper-error-container img{
+    margin-top: 335px;
+  }
+  .after-cancelation {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 1px;
+    box-sizing: border-box;
+    gap: 22px;
+    letter-spacing: normal;
+    height: 1000px;
+  }
+  @media screen and (max-width: 1125px) {
+    .error-container-icon {
+      flex: 1;
+    }
+    .after-cancelation {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .home-navbar {
+      display: none;
+    }
+    .frame-group {
+      gap: var(--gap-50xl);
+    }
+    .it-seems-that-container {
+      font-size: 28px;
+    }
+    .home-frames {
+      gap: var(--gap-232xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .frame-group {
+      gap: var(--gap-50xl);
+    }
+    .home-frames {
+      gap: var(--gap-232xl);
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .it-seems-that-container {
+      font-size: 21px;
+    }
+  }
+  
+  
+
+  
